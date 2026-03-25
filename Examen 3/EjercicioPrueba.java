@@ -16,11 +16,13 @@ public class EjercicioPrueba {
         };
 
         Scanner sc = new Scanner(System.in);
-        String regex = "[a-zA-Z ]+";
+        
+        String regex = "[a-zA-Z]+";
         String mensaje;
         String resultado = "";
         boolean valido = false;
 
+        
         do {
             System.out.print("\nMensaje a cifrar: ");
             mensaje = sc.nextLine().toUpperCase();
