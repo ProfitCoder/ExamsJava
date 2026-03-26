@@ -15,7 +15,7 @@ public class BiciElectrica extends Vehiculo{
 	//Metodos
 	@Override
 	public String toString(){
-		return String.format("idVehiculo: %d\nMarca: %s\nTarifaBaseDiaria: %.2f",idVehiculo,marca,tarifaBaseDiaria) + String.format("\nIncluye Casco: %b",incluyeCasco);
+		return super.toString() + String.format("\nIncluye Casco: %b",incluyeCasco);
 	}
 	
 	@Override
