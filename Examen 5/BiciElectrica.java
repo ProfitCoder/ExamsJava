@@ -25,7 +25,7 @@ public class BiciElectrica extends Vehiculo{
 		
 		coste = tarifaBaseDiaria * dias;
 		
-		if(incluyeCasco = true){
+		if(incluyeCasco == true){
 			extra = dias * 2;
 			
 			coste = coste + extra;
