@@ -15,7 +15,7 @@ public class CocheElectrico extends Vehiculo{
 	//Metodos
 	@Override
 	public String toString(){
-		return String.format("idVehiculo: %d\nMarca: %s\nTarifaBaseDiaria: %.2f",idVehiculo,marca,tarifaBaseDiaria) + String.format("\nNivel de bateria: %d%%",nivelBateria);
+		return super.toString() + String.format("\nNivel de bateria: %d%%",nivelBateria);
 	}
 	
 	@Override
